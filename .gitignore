@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.DS_Store
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Model cache (optional: hapus baris ini jika ingin commit model ke git)
+model_cache/*.h5
+model_cache/*.pkl
+
+# Keep stats & gitkeep
+!model_cache/.gitkeep

@@ -1,0 +1,22 @@
+{
+  "model_type": "sklearn",
+  "model_name": "Logistic Regression (Fallback — upgrade ke LSTM dengan: python train_lstm.py)",
+  "accuracy": 73.17,
+  "report": {
+    "negatif": {"precision": 0.625, "recall": 0.714, "f1-score": 0.667, "support": 14},
+    "netral":  {"precision": 0.909, "recall": 0.909, "f1-score": 0.909, "support": 11},
+    "positif": {"precision": 0.714, "recall": 0.625, "f1-score": 0.667, "support": 16},
+    "accuracy": 0.7317,
+    "macro avg":    {"precision": 0.749, "recall": 0.749, "f1-score": 0.747, "support": 41},
+    "weighted avg": {"precision": 0.737, "recall": 0.732, "f1-score": 0.732, "support": 41}
+  },
+  "confusion_matrix": [[10,6,0],[3,10,1],[1,0,10]],
+  "labels": ["positif","negatif","netral"],
+  "dataset": {
+    "total": 201,
+    "train_size": 160,
+    "test_size": 41,
+    "distribution": {"positif": 78, "negatif": 69, "netral": 54}
+  },
+  "history": {}
+}
